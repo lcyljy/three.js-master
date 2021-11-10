@@ -38,7 +38,7 @@ submitBtn.addEventListener("click", () => {
 const resiveBtn = document.querySelector(".resiveBtn");
 
 resiveBtn.addEventListener("click", () => {
-  console.log("check");
+  container.classList.add("active");
 })
 
 // const deleteBtn = document.querySelector(".deleteBtn");
